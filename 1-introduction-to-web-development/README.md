@@ -56,7 +56,7 @@ Was wollt ihr in diesem Kurs lernen?
 
 Wir schauen uns einige Websites an, die mit HTML, CSS und JavaScript erstellt wurden.
 
-[**Aufgabe 1: Websites manipulieren**](./aufgabe-1.md)
+[**Aufgabe 1: Websites manipulieren**](./aufgabe-1-websites-manipulieren.md)
 
 **Wichtig:** Wir verändern die Website nur lokal auf unserem Computer. Sobald wir die Website neu laden, ist alles wieder wie vorher, da wir sie uns neu vom Server laden.
 
