@@ -3,9 +3,9 @@ Web Development Course in Form einer wöchentlichen AG (powered by https://www.s
 
 ## Schedule
 ### Phase 1: Setting the Foundation
-1. [Introduction to Web Development](#1.-introduction-to-web-development)
-2. [Introduction to HTML & CSS](#2.-introduction-to-html-&-css)
-3. Intermediate HTML & CSS
+1. [Introduction to Web Development](#markdown-header-1.-introduction-to-web-development)
+2. [Introduction to HTML & CSS](#markdown-header-2.-introduction-to-html-&-css)
+3. [Intermediate HTML & CSS](#markdown-header-test)
 4. Introduction to Bootstrap
 5. Intermediate Bootstrap
 6. Introduction to Javascript
@@ -20,3 +20,11 @@ tbc
 tbd
 
 ### 2. Introduction to HTML & CSS
+
+
+
+
+
+
+
+### Test
