@@ -22,7 +22,9 @@ tbd
 
 ## 1 Introduction to Web Development
 
-tbd
+In dieser Lektion lernen wir etwas über die Geschichte des Internets und wie es funktioniert. Außerdem lernen wir die verschiedenen Programmiersprachen kennen, die zur Erstellung von Websites verwendet werden.
+
+[Course Folder](./1-introduction-to-web-development)
 
 ## 2 Introduction to HTML and CSS
 
