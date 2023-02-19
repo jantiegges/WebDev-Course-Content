@@ -56,62 +56,23 @@ Was wollt ihr in diesem Kurs lernen?
 
 Wir schauen uns einige Websites an, die mit HTML, CSS und JavaScript erstellt wurden.
 
-**Aufgabe:**
+[**Aufgabe 1: Websites manipulieren**](./aufgabe-1.md)
 
-1. Geht auf eine beliebige Website im Chrome-Browser (z.B. https://www.starcode.de)
-2. Klickt mit der rechten Maustaste auf die Website und wählt "Untersuchen"
-3. Schaut euch die HTML-Struktur der Website an (Section "Elements")
-4. Wählt eine Überschrift aus (mit Doppelklick) und ändert den Text
-   ![change heading text](./img/change-heading-text.png)
-5. Klickt auf das "Styles"-Tab und ändert die Farbe der Überschrift
-   ![change heading color](./img/change-heading-color.png)
+**Wichtig:** Wir verändern die Website nur lokal auf unserem Computer. Sobald wir die Website neu laden, ist alles wieder wie vorher, da wir sie uns neu vom Server laden.
+
+![server-client-architecture](./img/server-client.jpg)
 
 ## 5 Geschichte der Webprogrammierung
 
 Wir schauen uns an wie die Webprogrammierung sich entwickelt hat. Früher sahen Websites noch anders aus als heute, wo sie sehr interaktiv und ansprechend sind. Daher wollen wir uns ansehen, wie einige bekannte Websites früher aussahen.
 
-**Aufgabe:**
-
-1. Geht auf https://web.archive.org
-2. Sucht nach einer beliebigen Website (z.B. https://www.amazon.de)
-3. Klickt oben den Zeitpunkt an, zu dem ihr die Website sehen wollt
-
-Beispiel: Amazon im Jahr 2007
-![amazon old](./img/amazon-old.png)
+[**Aufgabe 2: Websites Zeitmaschine**](./aufgabe-2-websites-zeitmaschine.md)
 
 ## 6 Sneak Peak in HTML und CSS
 
 Jetzt haben wir bereits einiges gesehen, aber wollen endlich mal selber etwas programmieren.
 
-**Aufgabe:**
-
-1. Öffnet die Website https://codeply.com
-2. Klickt auf "New Ply"
-3. Schreibt in das HTML Feld folgenden Code:
-
-   ```html
-   <h1>Deine Überschrift</h1>
-   ```
-
-4. Klickt auf "Run"
-5. Schreibt in das CSS Feld folgenden Code:
-
-   ```css
-   h1 {
-     color: red;
-   }
-   ```
-
-6. Klickt auf "Run"
-7. Schreibt in das CSS Feld folgenden Code:
-
-   ```css
-   body {
-     background-color: black;
-   }
-   ```
-
-8. Klickt auf "Run"
+[**Aufgabe 3: Erste Schritte mit HTML und CSS**](./aufgabe-3-erste-schritte.md)
 
 ## 7 Abschluss
 
