@@ -1,0 +1,23 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: red;
+    font-size: 60px;
+    font-family: "Arial";
+    text-align: center;
+}
+
+.hobbies-text {
+    width: 50%;
+    float: right;
+    background-color: grey;
+}
+
+.hobbies-bild {
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    text-align: center;
+}
