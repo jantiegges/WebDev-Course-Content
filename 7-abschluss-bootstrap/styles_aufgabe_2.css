@@ -1,0 +1,110 @@
+/* ============================= */
+/* ===== Allgemeine Styles ===== */
+/* ============================= */
+.grosser-titel {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.kleiner-titel {
+    font-size: 30px;
+}
+
+.section-style-1 {
+    background-color: #ede9d5;
+    color: black;
+}
+
+.section-style-2 {
+    background-color: #E7AB9A;
+    color: white;
+}
+
+/* ======================================= */
+/* ===== Section 1: Navigationszeile ===== */
+/* ======================================= */
+
+#navbar {
+    padding: 0 10%;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* ================================ */
+/* ===== Section 2: Überblick ===== */
+/* ================================ */
+.app-bild {
+    width: 80%;
+    border-radius: 5%;
+    transform: rotate(15deg);
+}
+
+#überblick {
+    padding: 10%;
+}
+
+.überblick-links {
+    padding-top: 10%;
+}
+
+.btn {
+    margin: 10% 0;
+}
+
+/* =============================== */
+/* ===== Section 3: Features ===== */
+/* =============================== */
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #df7857;
+    margin-bottom: 10%;
+}
+
+.icon:hover {
+    color: #617143;
+}
+
+/* ================================== */
+/* ===== Section 4: Bewertungen ===== */
+/* ================================== */
+
+#bewertungen {
+    padding: 5%;
+}
+
+.bewertung-text {
+    font-size: 40px;
+    margin: 0 10%;
+}
+
+.bewertung-bild {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+
+/* ============================= */
+/* ===== Section 5: Preise ===== */
+/* ============================= */
+
+#preise {
+    padding: 5% 15%;
+}
+
+/* ============================= */
+/* ===== Section 6: Footer ===== */
+/* ============================= */
+
+#footer {
+    padding: 5% 10%;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}

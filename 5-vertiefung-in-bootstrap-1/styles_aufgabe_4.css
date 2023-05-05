@@ -10,6 +10,11 @@
     font-size: 30px;
 }
 
+.section-style-1 {
+    background-color: #ede9d5;
+    color: black;
+}
+
 .section-style-2 {
     background-color: #E7AB9A;
     color: white;
@@ -24,6 +29,12 @@
 /* ================================ */
 /* ===== Section 2: Überblick ===== */
 /* ================================ */
+.app-bild {
+    width: 80%;
+    border-radius: 5%;
+    transform: rotate(15deg);
+}
+
 #überblick {
     padding: 10%;
 }
@@ -36,17 +47,13 @@
     margin: 10% 0;
 }
 
-.app-bild {
-    width: 80%;
-    transform: rotate(15deg);
-    border-radius: 5%;
-}
-
 /* =============================== */
 /* ===== Section 3: Features ===== */
 /* =============================== */
 
-/* Dein Code */
+.feature-box {
+    padding: 5%;
+}
 
 /* ================================== */
 /* ===== Section 4: Bewertungen ===== */

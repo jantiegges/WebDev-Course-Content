@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Starcode Bootstrap App Seite</title>
+
+    <!-- CSS Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles_aufgabe_1.css" />
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v6.4.0/js/all.js"></script>
+</head>
+
+<body>
+    <!-- ======================================= -->
+    <!-- ===== Section 1: Navigationszeile ===== -->
+    <!-- ======================================= -->
+    <!-- Die Navigationszeile ist dafür da, dass man schnell zu bestimmten Sections auf unserer Website navigieren kann-->
+    <section class="section-style-1" id="navbar">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <!-- Hier spezifizieren wir den Titel der Navigationszeile -->
+                <a class="navbar-brand" href="#">Super-Duper-App</a>
+
+                <!-- Hier spezifizieren wir den Button, der die Navigationszeile ein- und ausblendet -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSections">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSections">
+                    <div class="navbar-nav">
+                        <!-- Hier spezifizieren wir die einzelnen Navigationsbereiche -->
+                        <a class="nav-item nav-link" href="#überblick">Home</a>
+                        <a class="nav-item nav-link" href="#features">Features</a>
+                        <a class="nav-item nav-link" href="#bewertungen">Bewertungen</a>
+                        <a class="nav-item nav-link" href="#preise">Preise</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- ================================ -->
+    <!-- ===== Section 2: Überblick ===== -->
+    <!-- ================================ -->
+    <!-- Hier wird der Nutzer auf unsere App aufmerksam gemacht -->
+    <section class="section-style-2" id="überblick">
+        <div class="container-fluid">
+            <!-- Wir wollen, dass der Text links und das Bild rechts angezeigt wird. Dafür verwenden wir die Bootstrap-Klasse "row" -->
+            <div class="row">
+                <div class="col-lg-6 überblick-links">
+                    <!-- Hier spezifizieren wir den Titel und die Beschreibung unserer App -->
+                    <h1 class="grosser-titel">Die neue Super-Duper-App</h1>
+                    <h3 class="kleiner-titel">
+                        Dies ist eine lange Beschreibung meiner App und warum sie so toll ist
+                    </h3>
+                    <!-- Hier spezifizieren wir den Button, der den Nutzer zu unserer App weiterleitet -->
+                    <button type="button" class="btn btn-dark btn-lg">
+                        Probier es aus!
+                    </button>
+                </div>
+                <!-- Hier spezifizieren wir ein Bild welches zu unserer App passt -->
+                <div class="col-lg-6 überblick-rechts">
+                    <img class="app-bild" src="images/title_pic.png" />
+                </div>
+            </div>
+    </section>
+
+    <!-- =============================== -->
+    <!-- ===== Section 3: Features ===== -->
+    <!-- =============================== -->
+    <!-- Hier werden die Features unserer App aufgelistet -->
+    <section class="section-style-1" id="features">
+        <div class="container-fluid text-center">
+            <!-- Wir wollen, dass die Features nebeneinander angezeigt werden. Dafür verwenden wir wieder die Bootstrap-Klasse "row" -->
+            <div class="row">
+                <div class="feature-box col-lg-4">
+                    <!-- Hier spezifizieren wir die Überschriften und die Beschreibungen der Features -->
+                    <h3 class="kleiner-titel">Die beste App aller Zeiten</h3>
+                    <p>
+                        Die beste App aller Zeiten. Die beste App aller Zeiten. Die beste App aller
+                        Zeiten.
+                    </p>
+                    <!-- Hier spezifizieren wir die Icons, die zu den Features passen -->
+                    <i class="icon fas fa-trophy fa-4x"></i>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <!-- Hier spezifizieren wir die Überschriften und die Beschreibungen der Features -->
+                    <h3 class="kleiner-titel">Die beste App aller Zeiten</h3>
+                    <p>
+                        Die beste App aller Zeiten. Die beste App aller Zeiten. Die beste App aller
+                        Zeiten.
+                    </p>
+                    <!-- Hier spezifizieren wir die Icons, die zu den Features passen -->
+                    <i class="icon fas fa-trophy fa-4x"></i>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <!-- Hier spezifizieren wir die Überschriften und die Beschreibungen der Features -->
+                    <h3 class="kleiner-titel">Die beste App aller Zeiten</h3>
+                    <p>
+                        Die beste App aller Zeiten. Die beste App aller Zeiten. Die beste App aller
+                        Zeiten.
+                    </p>
+                    <!-- Hier spezifizieren wir die Icons, die zu den Features passen -->
+                    <i class="icon fas fa-trophy fa-4x"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========================================= -->
+    <!-- ===== Section 4: Nutzer-Bewertungen ===== -->
+    <!-- ========================================= -->
+    <!-- Hier werden die Nutzer-Bewertungen angezeigt -->
+    <section class="section-style-2" id="bewertungen">
+        <!-- In dieser Section werden die Nutzer-Bewertungen angezeigt. Dafür nutzen wir die Bootstrap-Klasse "carousel" -->
+        <div class="carousel slide text-center" id="bewertungen-carousel">
+            <div class="carousel-inner">
+                <!-- Hier spezifizieren wir die einzelnen Bewertungen. Dafür verwenden wir die Bootstrap-Klasse "carousel-item" -->
+                <div class="carousel-item active">
+                    <!-- Hier spezifizieren wir den Text, das Bild und den Namen des Nutzers -->
+                    <h2 class="bewertung-text">
+                        "Die beste App der Welt! Sie ist einfach zu bedienen, hat alle
+                        Funktionen, die ich brauche und macht unfassbar Spaß."
+                    </h2>
+                    <img class="bewertung-bild" src="images/profile1.jpg" />
+                    <p>Maria, Berlin</p>
+                </div>
+                <div class="carousel-item">
+                    <h2 class="bewertung-text">
+                        "Die beste App der Welt! Sie ist einfach zu bedienen, hat alle
+                        Funktionen, die ich brauche und macht unfassbar Spaß."
+                    </h2>
+                    <img class="bewertung-bild" src="images/profile2.jpg" />
+                    <p>Zeynep, Berlin</p>
+                </div>
+                <!-- Hier spezifizieren wir die Pfeile, mit denen der Nutzer zwischen den einzelnen Bewertungen wechseln kann -->
+                <a class="carousel-control-prev" href="#bewertungen-carousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#bewertungen-carousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+    </section>
+
+    <!-- ============================= -->
+    <!-- ===== Section 5: Preise ===== -->
+    <!-- ============================= -->
+    <!-- Hier werden die verschiedenen Preispläne unserer App aufgelistet -->
+    <section class="section-style-1" id="preise">
+        <div class="row text-center">
+            <div class="col">
+                <div class="card rounded-3">
+                    <div class="card-header">
+                        <h3 class="kleiner-titel">Free</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1>0€</h1>
+                        <ul class="list-unstyled">
+                            <li>Limitierte Features</li>
+                            <li>Werbung</li>
+                            <li>Kein Support</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-outline-dark">Jetzt kostenlos registrieren</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-3">
+                    <div class="card-header">
+                        <h3 class="kleiner-titel">Premium</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1>10€</h1>
+                        <ul class="list-unstyled">
+                            <li>Alle Features</li>
+                            <li>Keine Werbung</li>
+                            <li>Email Support</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-dark">Hol's dir jetzt</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card rounded-3">
+                    <div class="card-header">
+                        <h3 class="kleiner-titel">Super-Premium</h3>
+                    </div>
+                    <div class="card-body">
+                        <h1>50€</h1>
+                        <ul class="list-unstyled">
+                            <li>Alle Features</li>
+                            <li>Exklusive Angebote</li>
+                            <li>Den besten Support</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-dark">Kontaktiere uns</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================= -->
+    <!-- ===== Section 6: Footer ===== -->
+    <!-- ============================= -->
+    <!-- Hier werden die Social-Media-Icons und der Copyright-Text angezeigt -->
+    <section class="section-style-2" id="footer">
+        <div class="container-fluid text-center">
+            <!-- Dein Code -->
+        </div>
+    </section>
+    <!-- Bootstrap JS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
