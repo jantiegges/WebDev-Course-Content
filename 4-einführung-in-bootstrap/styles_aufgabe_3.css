@@ -1,17 +1,8 @@
 /* ============================= */
 /* ===== Allgemeine Styles ===== */
 /* ============================= */
-.grosser-titel {
-    font-size: 60px;
-    font-weight: bold;
-}
-
-.kleiner-titel {
-    font-size: 30px;
-}
-
 .section-style-2 {
-    background-color: #E7AB9A;
+    background-color: #e7ab9a;
     color: white;
 }
 
@@ -24,10 +15,8 @@
 /* ================================ */
 /* ===== Section 2: Überblick ===== */
 /* ================================ */
-.app-bild {
-    width: 80%;
-    border-radius: 5%;
-}
+
+/* Dein Code */
 
 /* =============================== */
 /* ===== Section 3: Features ===== */

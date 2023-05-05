@@ -33,19 +33,24 @@
     <!-- Hier wird der Nutzer auf unsere App aufmerksam gemacht -->
     <section class="section-style-2" id="überblick">
         <div class="container-fluid">
+            <!-- Wir wollen, dass der Text links und das Bild rechts angezeigt wird. Dafür verwenden wir die Bootstrap-Klasse "row" -->
             <div class="row">
                 <div class="col-lg-6 überblick-links">
+                    <!-- Hier spezifizieren wir den Titel und die Beschreibung unserer App -->
                     <h1 class="grosser-titel">Die neue Super-Duper-App</h1>
                     <h3 class="kleiner-titel">
                         Dies ist eine lange Beschreibung meiner App und warum sie so toll ist
                     </h3>
+                    <!-- Hier spezifizieren wir den Button, der den Nutzer zu unserer App weiterleitet -->
                     <button type="button" class="btn btn-dark btn-lg">
                         Probier es aus!
                     </button>
                 </div>
-                <div class="col-lg-6 überblick-rechts"></div>
+                <!-- Hier spezifizieren wir ein Bild welches zu unserer App passt -->
+                <div class="col-lg-6 überblick-rechts">
+                    <img class="app-bild" src="images/title_pic.png" />
+                </div>
             </div>
-        </div>
     </section>
 
     <!-- =============================== -->
@@ -54,7 +59,35 @@
     <!-- Hier werden die Features unserer App aufgelistet -->
     <section class="section-style-1" id="features">
         <div class="container-fluid text-center">
-            <!-- Dein Code -->
+            <!-- Wir wollen, dass die Features nebeneinander angezeigt werden. Dafür verwenden wir wieder die Bootstrap-Klasse "row" -->
+            <div class="row">
+                <div class="feature-box col-lg-4">
+                    <!-- Hier spezifizieren wir die Überschriften und die Beschreibungen der Features -->
+                    <h3 class="kleiner-titel">Die beste App aller Zeiten</h3>
+                    <p>
+                        Die beste App aller Zeiten. Die beste App aller Zeiten. Die beste App aller
+                        Zeiten.
+                    </p>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <!-- Hier spezifizieren wir die Überschriften und die Beschreibungen der Features -->
+                    <h3 class="kleiner-titel">Die beste App aller Zeiten</h3>
+                    <p>
+                        Die beste App aller Zeiten. Die beste App aller Zeiten. Die beste App aller
+                        Zeiten.
+                    </p>
+                </div>
+
+                <div class="feature-box col-lg-4">
+                    <!-- Hier spezifizieren wir die Überschriften und die Beschreibungen der Features -->
+                    <h3 class="kleiner-titel">Die beste App aller Zeiten</h3>
+                    <p>
+                        Die beste App aller Zeiten. Die beste App aller Zeiten. Die beste App aller
+                        Zeiten.
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 

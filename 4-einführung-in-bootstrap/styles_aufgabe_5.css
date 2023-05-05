@@ -24,21 +24,8 @@
 /* ================================ */
 /* ===== Section 2: Überblick ===== */
 /* ================================ */
-#überblick {
-    padding: 10%;
-}
-
-.überblick-links {
-    padding-top: 10%;
-}
-
-.btn {
-    margin: 10% 0;
-}
-
 .app-bild {
     width: 80%;
-    transform: rotate(15deg);
     border-radius: 5%;
 }
 

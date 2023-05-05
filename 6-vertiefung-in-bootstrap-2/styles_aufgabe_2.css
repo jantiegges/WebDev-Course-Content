@@ -10,6 +10,11 @@
     font-size: 30px;
 }
 
+.section-style-1 {
+    background-color: #ede9d5;
+    color: black;
+}
+
 .section-style-2 {
     background-color: #E7AB9A;
     color: white;
@@ -24,20 +29,53 @@
 /* ================================ */
 /* ===== Section 2: Überblick ===== */
 /* ================================ */
+.app-bild {
+    width: 80%;
+    border-radius: 5%;
+    transform: rotate(15deg);
+}
 
-/* Dein Code */
+#überblick {
+    padding: 10%;
+}
+
+.überblick-links {
+    padding-top: 10%;
+}
+
+.btn {
+    margin: 10% 0;
+}
 
 /* =============================== */
 /* ===== Section 3: Features ===== */
 /* =============================== */
 
-/* Dein Code */
+.feature-box {
+    padding: 5%;
+}
+
+.icon {
+    color: #df7857;
+    margin-bottom: 10%;
+}
+
+.icon:hover {
+    color: #617143;
+}
 
 /* ================================== */
 /* ===== Section 4: Bewertungen ===== */
 /* ================================== */
 
-/* Dein Code */
+#bewertungen {
+    padding: 5%;
+}
+
+.bewertung-text {
+    font-size: 40px;
+    margin: 0 10%;
+}
 
 /* ============================= */
 /* ===== Section 5: Preise ===== */
