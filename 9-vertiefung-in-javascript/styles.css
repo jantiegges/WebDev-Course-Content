@@ -1,0 +1,81 @@
+body {
+    background-color: lightcoral;
+}
+
+/* ============================= */
+/* ===== Section 1: Title ====== */
+/* ============================= */
+#title {
+    font-family: 'Dancing Script', cursive;
+    padding: 5%;
+}
+
+.title-text {
+    font-size: 60px;
+    font-weight: bold;
+    color: lightpink;
+}
+
+.subtitle-text {
+    font-size: 30px;
+    color: white;
+}
+
+/* ============================= */
+/* === Section 2: Input Box ==== */
+/* ============================= */
+.input-box {
+    width: 32%;
+    margin: 0 auto;
+    padding: 3%;
+    background-color: lightpink;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+#calculate {
+    margin: 15% auto 0 auto;
+    width: 80%;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* ============================= */
+/* === Section 3: Result Box === */
+/* ============================= */
+#result {
+    display: none;
+}
+
+.result-text {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 24px;
+}
+
+.result-img {
+    margin: 0 auto;
+    display: block;
+}
+
+.result-name {
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-size: 48px;
+    color: darkred;
+}
+
+#restart {
+    margin: 5% auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text-name {
+    color: darkred;
+}
